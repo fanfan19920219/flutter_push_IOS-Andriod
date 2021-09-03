@@ -1,0 +1,34 @@
+PODS:
+  - Flutter (1.0.0)
+  - JCore (2.6.2)
+  - JPush (3.6.1):
+    - JCore (< 3.0.0, >= 2.0.0)
+  - jpush_flutter (0.0.2):
+    - Flutter
+    - JCore (= 2.6.2)
+    - JPush (= 3.6.1)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - jpush_flutter (from `.symlinks/plugins/jpush_flutter/ios`)
+
+SPEC REPOS:
+  trunk:
+    - JCore
+    - JPush
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  jpush_flutter:
+    :path: ".symlinks/plugins/jpush_flutter/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  JCore: 0cb4fc5892bc97af4f27283875369ead3eaa3067
+  JPush: 507d66d7ea307faba1330666d48e4e92af611659
+  jpush_flutter: e75658a5342e3bfe22d9f3de5dfacd3ef44230c5
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.10.1
